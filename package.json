@@ -9,7 +9,7 @@
   "private": false,
   "scripts": {
     "prod-pack": "webpack --mode production",
-    "start": "webpack --watch & electron .",
+    "start": "webpack --watch --mode development & electron .",
     "prod-start": "yarn prod-pack; electron .",
     "package-linux": "yarn prod-pack; electron-packager . Rair --overwrite --asar --platform=linux --arch=x64 --prune=true --out=release-builds",
     "package-mac": "yarn prod-pack; electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
