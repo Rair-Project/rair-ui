@@ -2,7 +2,7 @@
   "name": "rair-ui",
   "version": "1.0.0",
   "description": "Rair UI",
-  "main": "electron.tsx",
+  "main": "main/electron.tsx",
   "repository": "git@github.com:Rair-Project/rair-ui.git",
   "author": "oddcoder <ahmedsoliman@oddcoder.com>",
   "license": "LGPL-3.0",
