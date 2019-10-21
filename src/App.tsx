@@ -1,18 +1,11 @@
 import React from 'react'
 import Layout from './components/Layout'
 import MainTabs from './components/MainTabs'
+import HexEditor from './components/HexEditor'
 
 const tabsData = [
   {
-    label: 'Ok 1',
-    children: 'Content 1'
-  },
-  {
-    label: 'Ok 2',
-    children: 'Content 2'
-  },
-  {
-    label: 'Ok 3',
+    label: 'Welcome',
     children: (
       <div>
         <h1>Welcome to React</h1>
@@ -27,6 +20,14 @@ const tabsData = [
         </ul>
       </div>
     )
+  },
+  {
+    label: 'Hex Editor',
+    children: HexEditor
+  },
+  {
+    label: 'Graph',
+    children: 'Graph is here'
   }
 ]
 
